@@ -1,6 +1,6 @@
 # Bastion box excercise
 
-Base on Debian
+![bastion](./bastion.png)
 
 ## AWS
 
@@ -24,4 +24,10 @@ Base on Debian
 
 - Implement two-factor authentication
 
-![bastion](./bastion.png)
+## Client ssh genkey consideration
+
+<https://goteleport.com/blog/comparing-ssh-keys/>
+
+`ssh-keygen -t ed25519 -C "unique name to identify this key."`
+
+`ssh-keygen -l -f <key file>`
